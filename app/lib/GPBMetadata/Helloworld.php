@@ -23,7 +23,7 @@ class Helloworld
             "6f776f726c642e48656c6c6f5265706c79220042300a1b696f2e67727063" .
             "2e6578616d706c65732e68656c6c6f776f726c64420f48656c6c6f576f72" .
             "6c6450726f746f5001620670726f746f33"
-        ));
+        ), true);
 
         static::$is_initialized = true;
     }
