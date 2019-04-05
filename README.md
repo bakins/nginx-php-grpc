@@ -55,7 +55,7 @@ include an HTTP trailer indicating the status of the response.  gRPC is a layer 
 
 nginx now supports [HTTP2 listeners](https://www.nginx.com/blog/http2-module-nginx/#config).  You can also [add trailers](http://nginx.org/en/docs/http/ngx_http_headers_module.html#add_trailer) to responses using configuration.
 
-The [pexample PHP code here](./app/helloworld.php) handles the framing of the request and response messages.  It sets a `grpc-status` header that is added as a trailer by the [nginx configuration](./default.conf).
+The [example PHP code here](./app/helloworld.php) handles the framing of the request and response messages.  It sets a `grpc-status` header that is added as a trailer by the [nginx configuration](./default.conf).
 
 ## Future work
 
