@@ -1,7 +1,6 @@
 sudo: required
 services:
   - docker
-language: go
 notifications:
   email: false
 install:
