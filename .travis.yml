@@ -1,0 +1,17 @@
+sudo: required
+services:
+  - docker
+language: go
+notifications:
+  email: false
+install:
+- false
+script:
+- true
+deploy:
+- provider: script
+  script: bash ./script/push-image
+  on:
+    repo: bakins/nginx-php-grpc
+    branch: master
+
